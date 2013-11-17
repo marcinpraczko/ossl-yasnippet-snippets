@@ -8,7 +8,7 @@ snippets for many differrent Emacs modes.
 This is based on projects
 
 * Original yasnippet collection
-* `AndreaCrotti collection <https://github.com/AndreaCrotti/yasnippet-snippets>`_
+* `AndreaCrotti collection om github <https://github.com/AndreaCrotti/yasnippet-snippets>`_
 
 
 Installation and configuration
@@ -16,5 +16,5 @@ Installation and configuration
 
 For quick installation and cofiguration read file:
 
-* `docs/source/index.rst <docs/source/index.rst>`_
-* You can compile documentation to HTML format with spinx-doc (described in index.rst)
+* `docs/source/index.rst <docs/build/text/index.txt>`_
+* You can compile documentation to HTML format with spinx-doc (described in index.txt)

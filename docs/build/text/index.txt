@@ -1,15 +1,11 @@
-=======================
+
 ossl-yasnippet-snippets
-=======================
+***********************
 
 Contents:
 
-.. toctree::
-   :maxdepth: 3
-
-   snippets
-
-
+* OSSL-Snippets
+  * Installation
 File lists related with Content:
 
 * snippets.txt
@@ -20,20 +16,16 @@ File lists related with Content:
 Documentation for this project
 ==============================
 
-This documentaiton is written in RST format and compiled in sphinx-doc. You
-can read this documentation format in RST format (as is) or install
-sphinx-doc, navigate to docs folders and run:
+This documentaiton is written in RST format and compiled in sphinx-
+doc. You can read this documentation format in RST format (as is) or
+install sphinx-doc, navigate to docs folders and run:
 
 * On Linux systems
-
-.. code:: bash
 
    make html
    make text
 
-* On Windows systems 
-
-.. code:: bash
+* On Windows systems
 
    make.bat html
    make.bat text
@@ -41,4 +33,5 @@ sphinx-doc, navigate to docs folders and run:
 This will generate documentation in HTML and TEXT format in folder:
 
 * For html: **docs/build/html**
+
 * For text: **docs/build/text** (Included to github)
