@@ -8,7 +8,7 @@ snippets for many differrent Emacs modes.
 This is based on projects
 
 * Original yasnippet collection
-* `AndreaCrotti collection om github <https://github.com/AndreaCrotti/yasnippet-snippets>`_
+* `AndreaCrotti collection on github <https://github.com/AndreaCrotti/yasnippet-snippets>`_
 
 
 Installation and configuration
