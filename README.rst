@@ -16,5 +16,5 @@ Installation and configuration
 
 For quick installation and cofiguration read file:
 
-* `docs/source/index.rst <docs/build/text/index.txt>`_
+* `docs/build/text/index.txt <docs/build/text/index.txt>`_
 * You can compile documentation to HTML format with spinx-doc (described in index.txt)
