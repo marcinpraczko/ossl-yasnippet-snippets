@@ -1,0 +1,29 @@
+# name: KB Maincode
+# key: kbmaincode
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+${1:$(make-string (string-width yas-text) ?\=)}
+${1:Title}
+${1:$(make-string (string-width yas-text) ?\=)}
+
+.. index:: ${2:Index words seperate with space}
+
+Links
+=====
+
+* \`Main page - $1 <http://please-update-this-url.local>\`_
+
+Examples
+========
+
+command-example
+---------------
+
+Display 'hello world' in bash
++++++++++++++++++++++++++++++
+
+.. code:: bash
+
+   echo "Hello world"
+
+$0

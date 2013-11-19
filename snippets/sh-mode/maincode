@@ -1,0 +1,65 @@
+
+# -*- mode: snippet -*-
+# name: Main block code
+# key: maincode
+# --
+#!/bin/bash
+
+# ----------------------------------------------------------------------
+# 2013 by ${1:[UPDATE ME: Firstname LastName]}
+#
+# ${2:[UPDATE ME: This script is doing ... this and this]}
+# ----------------------------------------------------------------------
+
+# -- Global variables --
+LCD=\`pwd\`
+SCRIPT_NAME=\`basename \$0\`
+
+# -- Functions --
+function usage() {
+    local msg="\$1"	 
+
+    if [ ! "$msg" = "" ]; then
+	echo "ERROR: \${msg}"
+    fi
+
+    cat <<EOF
+
+Usage: \${SCRIPT_NAME} [-h] [-f filename] -- ARGS...
+
+Where:
+  -h - Display this usage screen
+  -f - Open file
+
+EOF
+}
+
+# -- Main code --
+if [ \$# -lt 1 ]; then
+    usage "Missing arguments"
+    exit 2
+fi
+
+while getopts :hf: OPT; do
+    case $OPT in
+	h|+h)
+	    usage ""
+	    exit 0
+	    ;;
+	f|+f)
+	    echo "Argument for -f: \$OPTARG"
+	    ;;
+	*)
+	    usage "Unknown arguments"
+	    exit 2
+    esac
+done
+shift \`expr $OPTIND - 1\`
+OPTIND=1
+
+# TODO: Remove or change this comment and line below
+echo "\${SCRIPT_NAME} is working"
+
+$0
+
+exit 0
