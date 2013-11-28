@@ -5,12 +5,12 @@ OSSL-Snippets
 Installation
 ============
 
-1. install yasnippet
-2. add to your .emacs the following
+1. Install yasnippet
+2. Add to your **~/.emacs** the following
 
-.. code:: bash
+.. code-block:: common-lisp
 
     (add-to-list 'yas/root-directory "$DIRECTORY_WHERE_YOU_CLONED")
     (yas/initialize)
 
-3. M-x yas/reload-all to activate them
+3. Reload all snippets to active them by runing in emacs: ``M-x yas/reload-all``
