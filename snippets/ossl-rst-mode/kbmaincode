@@ -22,8 +22,9 @@ command-example
 Display 'hello world' in bash
 +++++++++++++++++++++++++++++
 
-.. code:: bash
+.. code-block:: bash
 
+   # This is a comment
    echo "Hello world"
 
 $0
