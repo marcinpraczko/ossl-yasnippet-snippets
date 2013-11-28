@@ -26,14 +26,14 @@ sphinx-doc, navigate to docs folders and run:
 
 * On Linux systems
 
-.. code:: bash
+.. code-block:: bash
 
    make html
    make text
 
 * On Windows systems 
 
-.. code:: bash
+.. code-block:: bash
 
    make.bat html
    make.bat text
