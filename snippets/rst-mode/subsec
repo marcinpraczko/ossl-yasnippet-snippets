@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: Subsection title
+# name: subsection
 # key: subsec
 # --
 ${1:Subsection}

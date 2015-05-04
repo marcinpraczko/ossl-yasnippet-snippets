@@ -1,4 +1,5 @@
-# name: Progress on task
+# -*- mode: snippet -*-
+# name: progress on task
 # key: pr
 # --
 [%] [/] $0

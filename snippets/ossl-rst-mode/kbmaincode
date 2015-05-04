@@ -1,4 +1,5 @@
-# name: KB Maincode
+# -*- mode: snippet -*-
+# name: kb maincode
 # key: kbmaincode
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --

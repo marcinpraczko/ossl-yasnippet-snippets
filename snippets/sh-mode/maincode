@@ -1,6 +1,5 @@
-
 # -*- mode: snippet -*-
-# name: Main block code
+# name: maincode
 # key: maincode
 # --
 #!/bin/bash

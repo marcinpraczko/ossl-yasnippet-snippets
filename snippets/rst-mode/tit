@@ -1,4 +1,5 @@
-# name: Document title
+# -*- mode: snippet -*-
+# name: title
 # key: tit
 # --
 ${1:$(make-string (string-width yas-text) ?\=)}
